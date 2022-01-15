@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+</style>
+
+<style>
+div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+</style>
+
+<style>
+a {
+  border-style: dotted;
+}
+</style>
+
+<style>
+b {
+	float: right;
+}
+</style>
+
+<style>
+#rcorners1 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+</style>
+
+<link rel="stylesheet" href="anExternal.css">
+</head>
+<body>
+	<h1>2 paragraphs with different fonts</h1>
+		<p class="p1">This is a paragraph, shown in the Times New Roman font.</p>
+		<p class="p2">This is a paragraph, shown in the Arial font.</p>
+	<h1>2 pictures originally different sizes, resized to 50px by 50px</h1>
+		<img src="https://media.timeout.com/images/105811993/image.jpg" title="Hong Kong" style="width:50px;height:50px">
+		<img src="https://static.onecms.io/wp-content/uploads/sites/28/2021/02/19/new-york-city-evening-NYCTG0221.jpg" title="New York" style="width:50px;height:50px">
+	<h1>Unique CSS command</h1>
+		<i class="material-icons">cloud</i>
+	<h1>Text that is centered on a photo</h1>
+		<div class="container">
+			<img src="sun.jpg" alt="sun" style="width:50%;">
+			<div class="centered">Centered</div>
+		</div>
+	<h1>Photo with 20px margins on each side</h1>
+		<div>
+			<img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60775432203575340c0e4174%2FSantorini-island--Greece-%2F960x0.jpg%3FcropX1%3D0%26cropX2%3D1609%26cropY1%3D82%26cropY2%3D987" style="width:300px;height:200px">
+		</div>
+	<h1>Text with a border using dotted lines</h1>
+		<a>Hi, my name is Stephanie.</a>
+	<h1>An external style sheet</h1>
+		<h2>see blue background</h2>
+	<h1>Floating element (see corgi on right)</h1>
+		<b><img src="https://mymodernmet.com/wp/wp-content/uploads/2020/10/cooper-baby-corgi-dogs-8.jpg" style="width:200px;height:200px">
+		</b>
+	<h1>An element with rounded border corners</h1>
+		<p id="rcorners1">Rounded corners!</p>
+</body>
+</html>
