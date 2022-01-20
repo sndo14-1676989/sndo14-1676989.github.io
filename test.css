@@ -1,0 +1,100 @@
+body {
+	background-image: url('dark_wood.png');
+}
+
+span,
+h3,
+#Header h1 {color: #FFBC00;}
+
+#Header,
+#LeftNav,
+#Content,
+#Footer {text-align: center;}
+
+p,
+span {font-family: "Arial";}
+
+p,
+a {color: white;}
+
+p {	
+	font-weight: bold;	
+}
+
+span{
+	font-weight: bold;	
+	outline-style: outset;
+}
+
+h3 {
+	font-size: 40px;
+	font-family: "Passion One";
+	margin-bottom: 0px;
+}
+
+a{	
+	font-weight: bold;
+	font-size: 24px;
+}
+
+li {
+	
+}
+
+#Header {
+	background-color: hsl(248, 53%, 75%);
+	border: solid 8px black; 
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+#Header h1 {
+	font-size: 60px;
+	font-family: "Passion One";
+	text-shadow: 2px 2px purple;
+	font-weight: bold;
+}
+
+#LeftNav {
+	background-color: purple;
+	opacity: 0.6;
+	border: solid 8px black;
+	width: 400px;
+	float: left;
+}
+
+#LeftNav img{
+	
+}
+
+#LeftNav ul {
+	list-style-type: none;
+	padding-left: 0px;
+	padding-bottom: 8px;
+}
+
+#LeftNav h3{
+	
+}
+
+#Content {
+	background-color: #8E41D5;
+	border: solid 8px black;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	padding: 15px;
+}
+
+#Footer {
+	background-color: purple;
+	background-image: linear-gradient(purple, yellow);
+	border: solid 8px black;
+}
+
+#Footer ul{
+	list-style-type: none;
+}
